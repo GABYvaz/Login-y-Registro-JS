@@ -16,7 +16,7 @@ function login(e){
     if(usuarioVal == '' || passwordVal == ''){
         return;
     }
-
+    
     console.log('el valor para user es:' + usuarioVal);
     console.log('el valorlor para pass es:' + passwordVal);
 
