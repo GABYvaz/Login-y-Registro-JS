@@ -19,10 +19,12 @@
 </div>
 <script>
 
-    window.addEventListener('load', function);
-    if(localStorage.getItem('sesion')== null){
+    window.addEventListener('load', function(){
+        if(localStorage.getItem('sesion')== null){
         window.location.replace('./index.html','_self');
     }
+    })
+    
 
     const boton = document.getElementById("btnSalir");
     boton.addEventListener('click',function(e){
